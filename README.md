@@ -5,6 +5,13 @@ This is an AI-powered customer support system that helps customers with:
 - Password reset issues (Easy)
 - Double billing problems (Medium)
 - App crash complaints (Hard)
+## ✨ Features
+
+- Automated customer support replies
+- Handles multiple customer scenarios
+- AI-generated professional responses
+- Performance evaluation using grader
+- Docker-based deployment
 
 ## How It Works
 The AI reads customer emails and writes professional responses. It gets scored on:
