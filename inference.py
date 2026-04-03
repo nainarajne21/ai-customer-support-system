@@ -86,5 +86,10 @@ def main():
     passed = sum(1 for r in results.values() if r["success"])
     print(f"\nTotal: {passed}/3 tasks passed")
 
+import time
+
 if __name__ == "__main__":
     main()
+
+    while True:
+        time.sleep(60)
