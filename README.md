@@ -50,10 +50,17 @@ Try the working project here:
 
 https://huggingface.co/spaces/Naira21/customer-support
 
+---
 
+## 📸 Screenshots
+
+Here is the output of the AI Customer Support System:
+
+![Demo Screenshot](screenshot.png)
 
   
 ## Setup
 ```bash
 pip install -r requirements.txt
 python inference.py
+---
