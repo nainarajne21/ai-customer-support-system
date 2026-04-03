@@ -1,0 +1,44 @@
+# openenv.yaml - This tells the hackathon about your environment
+name: customer-support-system
+version: 1.0.0
+description: A customer support environment with three tasks - password reset, double billing, and angry customer handling
+
+environment:
+  class: SupportEnvironment
+  module: environment
+
+tasks:
+  - name: easy
+    description: Help customer reset forgotten password
+    grader: grade_response
+    difficulty: easy
+    
+  - name: medium
+    description: Handle double billing and process refund
+    grader: grade_response
+    difficulty: medium
+    
+  - name: hard
+    description: Deal with angry customer whose app crashed
+    grader: grade_response
+    difficulty: hard
+
+observation:
+  type: Observation
+  fields:
+    - email
+    - current_response
+    - steps_taken
+
+action:
+  type: Action
+  fields:
+    - response_text
+
+metadata:
+  author: Your Name
+  hackathon: Meta OpenEnv Challenge
+  tags:
+    - customer-support
+    - openenv
+    - rl
