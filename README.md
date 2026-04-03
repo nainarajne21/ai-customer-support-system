@@ -20,12 +20,38 @@ The AI reads customer emails and writes professional responses. It gets scored o
 | double_billing | Medium | Handle duplicate charges |
 | app_crash_refund | Hard | Deal with angry customer |
  
- ##Technologies Used
+ ## Technologies Used
   -Python
   -OpenAI API
   -Docker
   -YAML
   -Machine Learning Concepts
+
+  ## 📂 Project Structure
+ai-customer-support-system/
+
+├── inference.py → Runs the AI responses
+├── environment.py → Handles simulation logic
+├── grader.py → Evaluates response quality
+├── tasks.py → Defines customer support tasks
+├── requirements.txt → Python dependencies
+├── Dockerfile → Container configuration
+├── openenv.yaml → Environment setup
+├── test_ai.py → Functional testing
+├── test_performance.py → Performance testing
+├── README.md → Project documentation
+
+
+---
+
+## 🌐 Live Demo
+
+Try the working project here:
+
+https://huggingface.co/spaces/Naira21/customer-support
+
+
+
   
 ## Setup
 ```bash
